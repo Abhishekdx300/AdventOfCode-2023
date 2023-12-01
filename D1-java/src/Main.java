@@ -8,11 +8,16 @@ public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException {
 
+		Scanner sc = new Scanner(System.in);
 		
-        File file = new File("C:\\Users\\Abhishek\\OneDrive\\Desktop\\my\\AdventOfCode\\D1-java\\input.txt");
-//        File file = new File("C:\\Users\\Abhishek\\OneDrive\\Desktop\\my\\AdventOfCode\\D1-java\\test.txt");
-        Scanner scanner = new Scanner(file);
+		// give the full path of the input file in terminal -- in Windows \ -- \\
+		String path = sc.nextLine();
+		sc.close();
 		
+		
+		File file = new File(path);
+		
+		Scanner scanner = new Scanner(file);
         String curLine=" ";
         int result = 0;
         
