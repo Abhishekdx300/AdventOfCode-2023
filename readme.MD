@@ -39,3 +39,23 @@
 
     review : Took good amount (3hr+) of time to think,search and debug the code.
             learned a lot.  
+
+## #Day-4 :
+    --- [1st] : Each card (line) has winning numbers & your numbers separated by '|', count the number of wins per card (line) and return the sum.
+
+    solution --->
+         -- First, i removed the "CARD 1 :" part from each line, the splitted the remaining string into 2 parts at '|' by using regex in .split().
+         -- Then, splitted the 1st part (winning numbers part) into indivisual number strings, and replaced all spaces (" ") with '%' in the 2nd string( my numbers).
+         -- Then for each winning num string, checked if it is present or not in my string and counted.
+
+
+    --- [2nd] : for each wins in card, the same no. of next cards will have an extra copy. E.g. -- if card2 has 2 wins, then 3rd and 4th card will have an extra copy. For the extra copy also the same will be true.    
+
+    solution --->
+         -- Declared an ArrayList at the top, this will store the number of copies which will be added in the future due to current and previous cards. (trickiest part)
+         -- for each line looped through the array and increased the count for every non-zero element present in array and also decremented them (means used once, so will reduce.). 
+         --  Then added the no. of wins per current card n times. (n == no. of current card). Means if 2nd card has 2 wins,and no. of 2nd card is 4, then the no. of 3rd and 4th card will increase by 4 individually (Implemented by ArrayList). (Trickiest Part)
+
+    review : 1st part was easy with regex. Learned some regex there. In the 2nd part, had to think of a way to store
+             future copies, which was a bit difficult. But did them both in less time than yesterday.     
+
