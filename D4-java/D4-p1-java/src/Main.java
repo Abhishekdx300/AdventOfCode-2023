@@ -14,7 +14,7 @@ public class Main {
 		Scanner scanner = new Scanner(file);
 		
 		int result=0;
-		
+
 		while(scanner.hasNextLine()) {
 			
 			int count=0;
@@ -38,12 +38,13 @@ public class Main {
 			
 			for(String str : winningNums) {
 				if(str!="" && myNums.contains("%"+str+"%")) { // for the case -- 76 will be true for 765...which is wrong
-					if(count==0) count++;
-					else count *=2;
+//					if(count==0) count++;
+//					else count *=2;
+					count++;
 				}
 			}
 			
-		result+=count;			
+			if(count!=0)	result+=Math.pow(2, count-1);			
 			
 		}
 		System.out.println("*************");
