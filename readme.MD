@@ -59,3 +59,8 @@
     review : 1st part was easy with regex. Learned some regex there. In the 2nd part, had to think of a way to store
              future copies, which was a bit difficult. But did them both in less time than yesterday.     
 
+
+## #Day-5 : 
+    --- [part-1] : Didn't clear up the mess, could've done better, but didn't take much time to code compared to the '2nd part'.
+    --- Took me the whole day and "1000+ lines of code"(literal waste) to finally code it.
+    Had to restart from scratch 3 times (1000+,800+ and ~100 lines ). Uploading the abomination of a code I've wrote for my future self to look back. 
