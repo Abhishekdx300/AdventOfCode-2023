@@ -64,3 +64,6 @@
     --- [part-1] : Didn't clear up the mess, could've done better, but didn't take much time to code compared to the '2nd part'.
     --- Took me the whole day and "1000+ lines of code"(literal waste) to finally code it.
     Had to restart from scratch 3 times (1000+,800+ and ~100 lines ). Uploading the abomination of a code I've wrote for my future self to look back. 
+
+## #Day-6 :
+    --- both problems easiest till now. Just simple binary search for finding the min and max of the range.     
