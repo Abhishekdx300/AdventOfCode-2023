@@ -24,8 +24,8 @@ public class Main {
         String[] times = timeStr.split("\\s+"); // one or more spaces
         String[] dists = distStr.split("\\s+");
             // 1st string is a space
-//        part1(times,dists);
-        part2(times,dists);
+        part1(times,dists);
+//        part2(times,dists);
 
     }
 
@@ -33,24 +33,17 @@ public class Main {
 
         int n = times.length;
 
-        int res=0;
+        long res=0;
 
         for(int i =1 ;i<n;i++){
 
-            int maxTime = Integer.parseInt(times[i]);
-            int minDist = Integer.parseInt(dists[i]);
-                int cnt=0;
+            long maxTime = Integer.parseInt(times[i]);
+            long minDist = Integer.parseInt(dists[i]);
 
-                for(int holdTime = 1; holdTime < maxTime ; holdTime++){
+             long start = findMinRange(maxTime,minDist);
+             long end = findMaxRange(maxTime,minDist);
 
-                    int speed = holdTime;
-                    int remTime = maxTime-holdTime;
-
-                    int coverDist = speed*remTime;
-
-                    if(coverDist>minDist) cnt++;
-
-                }
+             long cnt = end - start +1;
 
                 if(res==0) res=cnt;
                 else{
