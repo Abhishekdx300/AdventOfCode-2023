@@ -67,3 +67,6 @@
 
 ## #Day-6 :
     --- both problems easiest till now. Just simple binary search for finding the min and max of the range.     
+
+## #Day-7 :
+    --- Took 2hr to solve both, had to use hashmap, priority queue, custom comparator class, class for each hand, function for calculating priority(most time consuming) etc.Overall had good time coding it up and learned a lot.      
