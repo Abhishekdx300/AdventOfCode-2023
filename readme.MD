@@ -70,3 +70,9 @@
 
 ## #Day-7 :
     --- Took 2hr to solve both, had to use hashmap, priority queue, custom comparator class, class for each hand, function for calculating priority(most time consuming) etc.Overall had good time coding it up and learned a lot.      
+
+## #Day-8 :
+    --- [1st] mapping every position to its left and right using hashmap, then start at "AAA", iterate according to L or R till current is "ZZZ".    
+    --- [2nd] the distance from start("**A") to first dest ("**Z") is same as the dist from first dest("**Z") to its own loop for every starting pos.
+    ---  So, answer will be the LCM of all the dists of first dest for all starting pos.
+    --- So, calc the distance for each, and ans is LCM of them all.
