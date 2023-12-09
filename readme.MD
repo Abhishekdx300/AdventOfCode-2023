@@ -76,3 +76,8 @@
     --- [2nd] the distance from start("**A") to first dest ("**Z") is same as the dist from first dest("**Z") to its own loop for every starting pos.
     ---  So, answer will be the LCM of all the dists of first dest for all starting pos.
     --- So, calc the distance for each, and ans is LCM of them all.
+
+## #Day-9 :
+    -- [1st] -- it was very straight-forward, just did what was explained in the problem statement.
+    -- [2nd] -- needed to formulate the way the calculate  the result easily, only took 5 min.
+    Overall it was easy and solved very quickly under 40 min.
