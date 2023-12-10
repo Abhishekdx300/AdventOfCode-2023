@@ -81,3 +81,7 @@
     -- [1st] -- it was very straight-forward, just did what was explained in the problem statement.
     -- [2nd] -- needed to formulate the way the calculate  the result easily, only took 5 min.
     Overall it was easy and solved very quickly under 40 min.
+
+## #Day-10 : 
+    -- 2nd most time consuming problem this year.
+    -- code has all the explanation. Not going to think about the problems again.
