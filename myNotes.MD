@@ -85,3 +85,10 @@
 ## #Day-10 : 
     -- 2nd most time consuming problem this year.
     -- code has all the explanation. Not going to think about the problems again.
+
+## #Day-11 :
+    -- Initially thought Dijkstra needed but later realized just the abs diff between rows & cols of the points are enough, along with storing row & col no. with no #. 
+    -- for every coordinate pair, if there's a row or col in between which is present in free row or free col, just increase rowDist/ colDist by ->
+        [1st] one
+        [2nd] 99999   
+    -- very easy.    
