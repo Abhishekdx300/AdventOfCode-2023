@@ -91,4 +91,8 @@
     -- for every coordinate pair, if there's a row or col in between which is present in free row or free col, just increase rowDist/ colDist by ->
         [1st] one
         [2nd] 99999   
-    -- very easy.    
+    -- very easy.
+
+## #Day-12 :
+    -- [1st] It was a bit difficult to think of every possible case for recursion.
+    -- [2nd] just did standard memoization to the recursion.
