@@ -96,3 +96,15 @@
 ## #Day-12 :
     -- [1st] It was a bit difficult to think of every possible case for recursion.
     -- [2nd] just did standard memoization to the recursion.
+
+## #Day-13 :
+    -- [1st] for all possible reflection line (0 to n-2) check both parts. If till the smaller part every line is equal, then it is accepted (return >0 value), else rejected (returns -1).
+    Then just add to result according to condition.
+    -- [2nd] for each reflection line, we have exactly 1 smudge, so the matching condition needs to be changed for two partition.
+        -- for each 2 lines in partitions, if notMatch=0, its accepted.
+        -- if notMatch=1 and smudge=1, its used (0) and accepted, else rejected.
+        -- if notMatch > 1 rejected
+
+    lastly, check if the smudge is zero. (accepted)
+
+    --- took very roundabout way to solve it. saw some extremely easy implementation in Python on YT. But don't know if they can be applied to Java or not.
