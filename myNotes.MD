@@ -108,3 +108,10 @@
     lastly, check if the smudge is zero. (accepted)
 
     --- took very roundabout way to solve it. saw some extremely easy implementation in Python on YT. But don't know if they can be applied to Java or not.
+
+## #Day-14 :
+    -- will do it later -- 2nd part remained
+
+
+## #Day-15 :
+    -- both was easy, just messed up some logic so took some time.
