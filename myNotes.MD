@@ -115,3 +115,8 @@
 
 ## #Day-15 :
     -- both was easy, just messed up some logic so took some time.
+
+## #Day-16 :
+    [1st]-- was not so tough, did standard BFS.( brute forcing in java)
+    [2nd]--- My java code is extremely inefficient. Took more than 10 min. to calculate the answer.(😵‍💫). Dont know why the put the HashSet (or Set) in java, when i have to just manually check if the array is present or not. I think it only checks for only same "Object",
+    but normally it doesnt help at all.  
